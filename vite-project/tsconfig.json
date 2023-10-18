@@ -21,11 +21,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"],
+      "@components": ["src/components"],
+      "@pages": ["src/pages"],
+      "@router": ["src/router"],
+      "@store": ["src/store"],
+      "@utils": ["src/utils"]
     }
   },
   "include": [
